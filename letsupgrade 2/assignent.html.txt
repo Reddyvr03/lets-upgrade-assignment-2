@@ -1,0 +1,105 @@
+<html>
+<head>
+  <title>Product Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .product-card {
+      flex-basis: 30%;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+    aside {
+      flex-basis: 20%;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Product Showcase</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="product-card">
+      <img src="https://th.bing.com/th/id/OIP.SASP4BkMNPhtYPtNJhXKawHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 1" width="300" height="300">
+      <h2>MONITOR</h2>
+      <p>A monitor is an output device that displays video images and text. It is a display device like a TV screen that interprets and displays the graphical output signal from your computer’s graphics card and displays it on the screen. This enables you to view the display interface in order to interact with the computer using various peripherals like a mouse or keyboard.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://i5.walmartimages.com/asr/5dc6457e-301f-4c25-b5a5-0207a400343a_1.5730fb122910b7275c42081c86e7a57e.jpeg" alt="Product 2" width="100" height="100">
+      <h2>CPU</h2>
+      <p>A central processing unit —also called a central processor or main processor—is the most important processor in a given computer. Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output operations. This role contrasts with that of external components, such as main memory and I/O circuitry, and specialized coprocessors such as graphics processing units.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://th.bing.com/th/id/OIP.mAkxS19YxYV0ueGlHF3GKQHaHa?pid=ImgDet&rs=1" alt="Product 3">
+      <h2>MOUSE</h2>
+      <p>A computer mouse (plural mice, also mouses) is a hand-held pointing device that detects two-dimensional motion relative to a surface. This motion is typically translated into the motion of a pointer on a display, which allows a smooth control of the graphical user interface of a computer.</p>
+    </div>
+  </div>
+
+  <aside>
+    <h2>Related Links</h2>
+    <ul>
+      <li><a href="https://www.amazon.in/Lenovo-Adjustment-Speakers-Customization-Certified/dp/B0B4SVJNRW/ref=sr_1_1_sspa?crid=23HRFPIP4P2M2&keywords=monitor&qid=1691241892&sprefix=monitor%2Caps%2C229&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Link 1</a></li>
+      <li><a href="https://www.amazon.in/Lenovo-IdeaCentre-Integrated-Bluetooth-90MV00MLIN/dp/B0C65WN1YP/ref=sr_1_1_sspa?crid=3IRSJEG1KYS4B&keywords=cpu&qid=1691241941&sprefix=cpu%2Caps%2C258&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Link 2</a></li>
+      <li><a href="https://www.amazon.in/HP-150-Ambidextrous-Wireless-Mouse/dp/B09GB5B4BK/ref=sr_1_1_sspa?crid=1PMYOIK7P6PDY&keywords=mouse&qid=1691241970&sprefix=mouse%2Caps%2C220&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Link 3</a></li>
+     
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2023 Product Showcase. All rights reserved.</p>
+  </footer>
+</body>
+</html>
